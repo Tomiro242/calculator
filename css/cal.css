@@ -1,0 +1,28 @@
+*{ box-sizing: border-box;}
+
+.outer {height: 600px;
+        width:600px;
+         border: solid black 4px;}
+
+.inner {height: 200px;
+        width: 100%;
+        border:solid black 2px;}
+
+.pan {display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: stretch;}
+
+button {height: 100px;
+        width: 100px;}
+
+.display { border: solid red 1px;
+           height: 75px;
+            width:500px;
+            font-size: 40px;}
+
+/*.screen { border:solid green 1px;
+          height: 75px;
+          width: 500px;
+
+}*/
